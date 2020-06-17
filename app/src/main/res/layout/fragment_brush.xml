@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anbara.ayoub.drawing.fragments.BrushFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/brush_size"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <!--<SeekBar
+
+            android:id="@+id/seekbar_brush_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:min="1"
+            android:progress="20"
+
+
+            />
+            -->
+        <com.xw.repo.BubbleSeekBar
+            android:id="@+id/seekbar_brush_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            app:bsb_bubble_color="#F44336"
+            app:bsb_bubble_text_color="@android:color/black"
+            app:bsb_max="100"
+            app:bsb_min="0"
+            app:bsb_progress="30"
+            app:bsb_second_track_color="#E20000"
+            app:bsb_section_count="5"
+            app:bsb_section_text_position="bottom_sides"
+            app:bsb_show_progress_in_float="true"
+            app:bsb_show_section_mark="true"
+            app:bsb_show_section_text="true"
+            app:bsb_show_thumb_text="true"
+            app:bsb_track_color="#F44336" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opacity"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <!--<SeekBar
+
+            android:id="@+id/seekbar_brush_opacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:min="1"
+            android:paddingBottom="10dp"
+            android:progress="100" />
+-->
+        <com.xw.repo.BubbleSeekBar
+            android:id="@+id/seekbar_brush_opacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            app:bsb_bubble_color="#F44336"
+            app:bsb_bubble_text_color="@android:color/black"
+            app:bsb_max="100"
+            app:bsb_min="0"
+            app:bsb_progress="100"
+            app:bsb_second_track_color="#E20000"
+            app:bsb_section_count="5"
+            app:bsb_section_text_position="bottom_sides"
+            app:bsb_show_progress_in_float="true"
+            app:bsb_show_section_mark="true"
+            app:bsb_show_section_text="true"
+            app:bsb_show_thumb_text="true"
+            app:bsb_track_color="#F44336" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+                android:id="@+id/choose_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:scaleType="center"
+                app:backgroundTint="#fff"
+                app:maxImageSize="56dp"
+                app:srcCompat="@drawable/ic_color_picker" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_color"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingBtn_brush"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="@android:color/transparent"
+                android:textSize="20sp"
+                app:srcCompat="@drawable/ic_brush"
+
+                />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingBtn_eraser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/floatingBtn_brush"
+                android:backgroundTint="@android:color/transparent"
+                android:textSize="20sp"
+                app:srcCompat="@drawable/ic_eraser"
+
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

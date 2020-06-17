@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_button_width">40dp</dimen>
+
+    <dimen name="image_button_height">40dp</dimen>
+
+    <dimen name="card_view_width">60dp</dimen>
+
+    <dimen name="card_view_height">60dp</dimen>
+
+    <dimen name="text_view_size">18sp</dimen>
+    <dimen name="item_color_width">35dp</dimen>
+    <dimen name="item_color_height">35dp</dimen>
+<!--
+    <dimen name="brush_text_size">16sp</dimen>
+    <dimen name="opacity_text_size">16sp</dimen>
+
+    <dimen name="toggle_button_text_size">18sp</dimen>
+-->
+
+</resources>

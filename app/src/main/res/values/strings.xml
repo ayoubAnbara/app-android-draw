@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Drawing and Coloring game</string>
+
+    <string name="ADMOB_APP_ID" translatable="false">ca-app-pub-9059580756298090~9640747844</string>
+
+    <string name="banner_id" translatable="false">ca-app-pub-9059580756298090/4470034410</string>
+    <string name="interstitial_id" translatable="false">ca-app-pub-9059580756298090/5399972704</string>
+
+    <!--
+        <string name="banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+       <string name="interstitial_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    -->
+
+       <string name="rate_app">Rate app</string>
+       <string name="great_application">Great application</string>
+       <string name="share_app_intent">share via</string>
+       <string name="privacy_policy">privacy policy</string>
+       <string name="permission_denied">Permission Denied!</string>
+       <string name="msgToUser_when_permission_denied"> You must accept the permissions before use this app</string>
+
+       <string name="unexpected_error">Unexpected Error</string>
+       <string name="image_saved_to_gallery">image saved to gallery!</string>
+       <string name="unable_to_save_image">Unable to save image!</string>
+       <string name="text_to_share">Hi download this cool app i found on Google play.</string>
+       <string name="dowloand_play_store">Please download Google play store</string>
+       <string name="rate">Rate</string>
+
+       <string name="share">Share</string>
+       <string name="more_apps">More apps</string>
+       <string name="background">background</string>
+
+
+       <string name="enter_your_text">enter your text</string>
+       <string name="brush_size">brush size</string>
+       <string name="opacity">opacity</string>
+       <string name="add">ADD</string>
+       <string name="brush">brush</string>
+       <string name="text">text</string>
+       <string name="alphabet">alphabet</string>
+       <string name="numbers">numbers</string>
+       <string name="image">image</string>
+       <string name="refresh">refresh</string>
+       <string name="done">done</string>
+
+
+       <string name="title_ratingDialog">Rate Us</string>
+       <string name="text_ratingDialog1">Do you love Drawing and Coloring game?</string>
+       <string name="text_ratingDialog2">Please rate us!</string>
+       <string name="later">Later</string>
+       <string name="never">Never</string>
+       <string name="done_ratingDialog">Done</string>
+       <string name="url_pravacy" translatable="false">https://sites.google.com/view/drawing-policy/accueil</string>
+       <string name="exit">Exit</string>
+
+
+   </resources>

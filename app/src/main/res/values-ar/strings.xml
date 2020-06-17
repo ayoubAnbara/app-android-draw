@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">لعبة الرسم و التلوين</string>
+    <string name="background">خلفية</string>
+
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="great_application">تطبيق رائع أنصحك بتنزيله</string>
+
+    <string name="rate_app">قيمنا</string>
+    <string name="image">صورة</string>
+    <string name="done">تم</string>
+    <string name="share_app_intent">شارك عبر</string>
+    <string name="enter_your_text">ادخل النص</string>
+    <string name="text">نص</string>
+    <string name="brush">فرشاة</string>
+
+    <string name="unexpected_error">خطأ غير متوقع</string>
+    <string name="permission_denied">طلب الاذن مرفوض!</string>
+    <string name="msgToUser_when_permission_denied">التطبيق بحاجة الى الموافقة على الاذونات لكي يعمل</string>
+    <string name="brush_size">حجم الفرشاة</string>
+    <string name="opacity">شفافية</string>
+
+
+    <string name="unable_to_save_image">غير ممكن حفظ الصورة!</string>
+    <string name="image_saved_to_gallery">تم حفظ الصورة في المعرض!</string>
+    <string name="add">اضافة</string>
+    <string name="alphabet">حروف</string>
+    <string name="more_apps">تطبيقات اخرى</string>
+    <string name="refresh">تحديث</string>
+    <string name="share">مشاركة</string>
+    <string name="text_to_share">مرحبا لقد وجدت هذا التطبيق رائع حمله سيعجبك</string>
+    <string name="dowloand_play_store">من فضلك حمل متجر غوغل بلاي</string>
+    <string name="numbers">ارقام</string>
+    <string name="rate">تقييم التطبيق</string>
+
+    <string name="text_ratingDialog1">هل احببت لعبةالرسم و التلوين؟</string>
+    <string name="text_ratingDialog2">المرجوا منك تقييمنا!</string>
+    <string name="later">لاحقا</string>
+    <string name="never">ابدا</string>
+    <string name="done_ratingDialog">حسنا</string>
+    <string name="title_ratingDialog">قيمنا</string>
+    <string name="exit">الخروج</string>
+
+</resources>

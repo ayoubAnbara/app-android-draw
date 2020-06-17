@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="anbara.ayoub.drawing.fragments.AddTextFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_add_text"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_text"
+            android:maxHeight="200dp"
+            android:scrollbars="vertical" />
+
+        <ImageButton
+            android:id="@+id/btn_done"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/background_btn_add"
+            app:srcCompat="@drawable/ic_check_black_24dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+
+                    android:id="@+id/choose_color_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:scaleType="center"
+                    app:backgroundTint="#fff"
+                    app:maxImageSize="56dp"
+
+                    app:srcCompat="@drawable/ic_color_picker"
+
+                    />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

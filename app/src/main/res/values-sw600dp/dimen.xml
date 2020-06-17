@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_button_width">50dp</dimen>
+    <dimen name="image_button_height">50dp</dimen>
+
+    <dimen name="card_view_width">90dp</dimen>
+    <dimen name="card_view_height">90dp</dimen>
+
+    <dimen name="text_view_size">22sp</dimen>
+
+    <dimen name="item_color_width">50dp</dimen>
+    <dimen name="item_color_height">50dp</dimen>
+
+</resources>

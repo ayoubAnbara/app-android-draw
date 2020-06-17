@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3b0a00</color>
+    <color name="colorPrimaryDark">#985d2c</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_white" >#fff</color>
+    <color name="selected_filter">#221f20</color>
+    <color name="normal_filter">#8a8889</color>
+    <color name="color_option_menu">#FF3990</color>
+    <color name="card_background_color">#663300</color>
+</resources>

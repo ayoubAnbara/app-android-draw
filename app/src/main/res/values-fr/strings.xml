@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jeu de Dessin et Coloriage</string>
+
+
+    <string name="privacy_policy">politique de confidentialité</string>
+    <string name="great_application">Bonne application Je vous conseille de le télécharger</string>
+    <string name="share_app_intent">partager via</string>
+    <string name="done">terminé</string>
+    <string name="enter_your_text">Entrez votre texte</string>
+    <string name="image">Image</string>
+    <string name="text">texte</string>
+    <string name="brush">Brosse</string>
+
+
+    <string name="unexpected_error">Erreur inattendue</string>
+    <string name="permission_denied">Permission refusée!</string>
+    <string name="msgToUser_when_permission_denied">vous devez accepter les autorisations avant d\'utiliser cette application</string>
+    <string name="rate_app">Évaluer l\'application</string>
+
+
+    <string name="brush_size">Taille de la brosse</string>
+    <string name="opacity">Opacité</string>
+
+
+    <string name="unable_to_save_image">Impossible d\'enregistrer l\'image!</string>
+    <string name="image_saved_to_gallery">image enregistrée dans la galerie!</string>
+    <string name="add">ajouter</string>
+    <string name="alphabet">alphabet</string>
+    <string name="background">arrière-plans</string>
+    <string name="dowloand_play_store">S\'il vous plaît télécharger Google Play Store</string>
+    <string name="more_apps">Plus d\'applications</string>
+    <string name="numbers">Nombres</string>
+    <string name="rate">Noter app</string>
+    <string name="refresh">"actualiser "</string>
+    <string name="share">Partager</string>
+    <string name="text_to_share">Salut télécharger cette cool application que j\'ai trouvé sur Google Play.</string>
+
+    <string name="never">Jamais</string>
+    <string name="later">Plus tard</string>
+    <string name="text_ratingDialog2">S\'il vous plaît noter nous!</string>
+    <string name="text_ratingDialog1">Avez-vous aimé Jeu de Dessin et Coloriage?</string>
+    <string name="title_ratingDialog">Rate Us</string>
+    <string name="done_ratingDialog">Ok</string>
+    <string name="exit">Sortie</string>
+</resources>
